@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:url" content="https://technight.redhat-forum.jp" />
+  <meta property="og:site_name" content="Red Hat Tech Night">
+  <meta property="og:type" content="website">
+  <meta property="fb:app_id" content="2178881712375987">
+  <meta property="og:title" content="Red Hat Tech Night" />
+  <meta property="og:description" content="Technical Sessions &amp; Lightning Talks From JP Red Hatters #rhtn2018" />
+  <meta property="og:image" content="img/og.jpg" />
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Red Hat Tech Night</title>
-  <!-- Font Awesome -->
+  <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700|Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +29,7 @@
     header,
     .view {
       height: 100%;
-      font-family: "Liberation";
+      font-family: "Overpass", Overpass, Helvetica, helvetica, arial, sans-serif;
     }
 
     .avatar {
@@ -86,8 +94,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-        <strong>Red Hat Tech Night</strong>
+      <a class="navbar-brand" href="#">
+        Red Hat Tech Night
       </a>
 
       <!-- Collapse -->
@@ -101,14 +109,9 @@
 
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
           <li class="nav-item">
-              <a class="nav-link" href="#timetable">Timetable</a>
-            </li>
+            <a class="nav-link" href="#timetable">Timetable</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#speakers">Speakers</a>
           </li>
@@ -147,28 +150,32 @@
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
       <!-- Content -->
-      <div class="text-center white-text mx-5 wow fadeIn">
-
-        <h1 class="display-4 mb-4">
-          <strong>Red Hat Tech Night</strong>
+      <div class="text-center white-text mx-5 wow fadeIn mt-300">
+        <hr />
+        <hr />
+        <h1 class="display-4 mb-4" style="font-size:50pt; letter-spacing: 0.05em; font-weight: bold; ">
+          RED HAT TECH NIGHT
         </h1>
 
-        <h4 class="mb-4">
-          <strong>Technical Sessions &amp; Lightning Talks From JP Red Hatters #rhtn2018</strong>
+        <div style="height:150px;">
+          <img src="https://redhat-forum.jp/img/common/logo_rh.png" class="rounded mx-auto d-block pt-20">
+        </div>
+
+        <h4 class="display-4 mb-4" style="font-size:28pt; font-weight: bold; height:40px;">
+          Technical Sessions &amp; Lightning Talks
         </h4>
 
-        <h4 class="mb-4">
-          <strong>2018.11.8 19:00 Start</strong>
-        </h4>
-
-        <a href="https://ossbyredhat.connpass.com/event/106062/">
-          <button class="btn blue-gradient">Registration</button>
-        </a>
+        <hr />
+        <div class="display-4 mb-10">
+          <a href="https://ossbyredhat.connpass.com/event/106062/">
+            <button class="btn blue-gradient">Registration</button>
+          </a>
+        </div>
 
         <!-- Time Counter -->
         <p id="time-counter" class="border border-light my-4"></p>
 
-        <img src="https://redhat-forum.jp/img/common/logo_rh.png" class="rounded mx-auto d-block" style="width:20%; height:20%;">
+
 
       </div>
       <!-- Content -->
@@ -177,6 +184,14 @@
     <!-- Mask & flexbox options-->
 
   </div>
+
+  <!-- Timetable -->
+  <section class="my-5">
+    <h2 class="my-5 h3 text-center" id="timetable">Timetable</h2>
+    <div style="text-align:center;">TBD</div>
+  </section>
+
+  <hr class="m-5">
 
   <!-- Full Page Intro -->
   <section class="my-5">
@@ -571,8 +586,10 @@
         </div>
 
         <div class="col-12 m-3">
-          <h6>Q: <a href="https://reg.redhat-forum.jp/timetable/">Red Hat Forum Tokyo</a>には参加申し込みしたのですが、本イベント（Tech Night）に参加を希望する場合、こちらでも別途参加登録が必要ですか</h6>
-          <p>A: はい、本編のRed Hat Forum Tokyoとは異なる登録が必要となっております。大変お手数ですが、<a href="https://ossbyredhat.connpass.com/event/106062/">connpass</a>にて登録を受け付けておりますので、そちらからご登録の上ご参加ください。</p>
+          <h6>Q:
+            <a href="https://reg.redhat-forum.jp/timetable/">Red Hat Forum Tokyo</a>には参加申し込みしたのですが、本イベント（Tech Night）に参加を希望する場合、こちらでも別途参加登録が必要ですか</h6>
+          <p>A: はい、本編のRed Hat Forum Tokyoとは異なる登録が必要となっております。大変お手数ですが、
+            <a href="https://ossbyredhat.connpass.com/event/106062/">connpass</a>にて登録を受け付けておりますので、そちらからご登録の上ご参加ください。</p>
         </div>
 
       </div>
@@ -660,7 +677,7 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = "開催まであと " + days + "日 " + hours + "時間 "
+      document.getElementById("time-counter").innerHTML = "2018.11.8(木) 19:00 Start<br />開催まであと " + days + "日 " + hours + "時間 "
         + minutes + "分 " + seconds + "秒 ";
 
       // If the count down is finished, write some text
