@@ -201,7 +201,7 @@
           <tr>
             <td>19:15</td>
             <td>
-              <p>Redhatter Talk Session: OSS製品のソースコードの歩き方</p>
+              <p>Redhatter Talk Session: OSS製品のソースコードの歩き方(仮) ※内容調整中</p>
               <p class="grey-text">
                 そもそもどのソースを追っているか / OpenShiftなどupstreamの変更が多いリポジトリをみなさんどのように追っているか / ローカルに落として移動の時に読むとかしてる？ / 読みやすいソース、読むのが大変なソース / 検索する技術（Ctags
                 etc） / 一行入魂（忘れられない一行など）
@@ -211,7 +211,7 @@
           <tr>
             <td>19:35</td>
             <td>
-              <p>Redhatter Talk Session: 製品ドキュメントとサポートの力を引き出すコツ</p>
+              <p>Redhatter Talk Session: 製品ドキュメントとサポートの力を引き出すコツ(仮) ※内容調整中</p>
               <p class="grey-text">
                 ドキュメント膨大な量あるのにいったいどこからどうやって読めばいいのか / 困った時に引く、という使い方以外に定番とかおすすめの使い方があれば / 製品のバージョン毎の癖や細かい動作などについて、ソースを読む以外の上手な情報収集の方法 / MLや人とつながるのも良い方法.
                 コミュニティやSlackやML、どうやって &amp; どこに入ればいい？ / サポートへのうまい聞き方、サポート的に助かる質問、困る質問
@@ -445,17 +445,20 @@
         <!--Grid row-->
         <div class="row speaker">
           <div class="col-12">
-            <img src="https://avatars0.githubusercontent.com/u/2055698?s=460&v=4" class="rounded mx-auto d-block avatar">
+            <img src="./img/avatar/literalice.jpg" class="rounded mx-auto d-block avatar">
             <h5 class="feature-title font-bold mt-2 text-center">
-              Syndesis
-              <span class="tag badge blue">インテグレーション</span>
-              <span class="tag badge red">Camel/OpenShift</span>
+              ねこでもできるOperator(仮)
+              <span class="tag badge blue">司会</span>
+              <span class="tag badge red">Kubernetes</span>
               <span class="tag badge yellow">LT</span>
             </h5>
             <p class="grey-text mt-2 text-center">
-              Hisao Furuichi / Software Maintenance Engineer
-              <a href="https://twitter.com/hfuruichi" target="_blank">
+              Masatoshi Hayashi / Solution Architect
+              <a href="https://twitter.com/literalice" target="_blank">
                 <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://github.com/literalice" target="_blank">
+                <i class="fa fa-github mr-3"></i>
               </a>
             </p>
           </div>
@@ -475,19 +478,16 @@
         <!--Grid row-->
         <div class="row speaker">
           <div class="col-12">
-            <img src="https://avatars2.githubusercontent.com/u/330602?s=460&v=4" class="rounded mx-auto d-block avatar">
+            <img src="./img/avatar/fideleruuth.jpg" class="rounded mx-auto d-block avatar">
             <h5 class="feature-title font-bold mt-2 text-center">
-              TBD
-              <span class="tag badge blue">TBD</span>
-              <span class="tag badge red">TBD</span>
+              Welcoming &amp; Opening
+              <span class="tag badge blue">ご挨拶</span>
+              <span class="tag badge red">Ansible</span>
             </h5>
             <p class="grey-text mt-2 text-center">
-              No Name / TBD
-              <a href="https://twitter.com/remore" target="_blank">
+              Makoto Nakamura / Cloud Business Development Manager
+              <a href="https://twitter.com/fideleruuth" target="_blank">
                 <i class="fa fa-twitter"></i>
-              </a>
-              <a href="https://github.com/remore" target="_blank">
-                <i class="fa fa-github mr-3"></i>
               </a>
             </p>
           </div>
@@ -501,19 +501,17 @@
         <!--Grid row-->
         <div class="row speaker">
           <div class="col-12">
-            <img src="https://avatars1.githubusercontent.com/u/19153970?s=460&v=4" class="rounded mx-auto d-block avatar">
+            <img src="https://avatars0.githubusercontent.com/u/2055698?s=460&v=4" class="rounded mx-auto d-block avatar">
             <h5 class="feature-title font-bold mt-2 text-center">
-              エンジニアと書籍出版(仮)
-              <span class="tag badge blue">学び</span>
-              <span class="tag badge red">Ansible</span>
+              Syndesis
+              <span class="tag badge blue">インテグレーション</span>
+              <span class="tag badge red">Camel/OpenShift</span>
+              <span class="tag badge yellow">LT</span>
             </h5>
             <p class="grey-text mt-2 text-center">
-              Nanashi No Gonbei / Solution Architect
-              <a href="https://twitter.com/remore" target="_blank">
+              Hisao Furuichi / Software Maintenance Engineer
+              <a href="https://twitter.com/hfuruichi" target="_blank">
                 <i class="fa fa-twitter"></i>
-              </a>
-              <a href="https://github.com/remore" target="_blank">
-                <i class="fa fa-github mr-3"></i>
               </a>
             </p>
           </div>
@@ -639,7 +637,10 @@
           <p>A: はい、本編のRed Hat Forum Tokyoとは異なる登録が必要となっております。大変お手数ですが、
             <a href="https://ossbyredhat.connpass.com/event/106062/">connpass</a>にて登録を受け付けておりますので、そちらからご登録の上ご参加ください。</p>
         </div>
+      </div>
 
+      <div class="col-12 m-3">
+          <!-- TODO: add more FAQ -->
       </div>
 
       <!--/Grid column-->
@@ -712,11 +713,7 @@
 
     // Update the count down every 1 second
     var x = setInterval(function () {
-      Ï
-      // Get todays date and time
       var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
       var distance = countDownDate - now;
 
       // Time calculations for days, hours, minutes and seconds
