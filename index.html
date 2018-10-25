@@ -734,6 +734,7 @@
     countDownDate.setMonth(10);
     countDownDate.setDate(8);
     countDownDate.setHours(19);
+    countDownDate.setMinutes(15);
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -747,7 +748,7 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = "2018.11.8(木) 19:00 Start<br />開催まであと " + days + "日 " + hours + "時間 " + minutes + "分 " + seconds + "秒 ";
+      document.getElementById("time-counter").innerHTML = "2018.11.8(木) 19:15 Start<br />開催まであと " + days + "日 " + hours + "時間 " + minutes + "分 " + seconds + "秒 ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
